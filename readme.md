@@ -62,7 +62,7 @@ alias reload=" . ~/.profile"
   - ~~Daryl needs to do his first commit!~~
   - Josh needs to do his first commit!
   - Kyle needs to do his first commit!
-0. Add two tilda `~~` around the linethat has your name on it then save and close the file.
+0. Add two tilda `~~` on each side of the line that has your name on it then save and close the file.
 0. Run `git status`
 0. Run `git add readme.md`
 0. Run `git commit -m "This is my first commit!"`
