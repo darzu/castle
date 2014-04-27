@@ -65,5 +65,12 @@ var gameLoop = function() {
   drawArrow(arrowX);
 };
 
-setInterval(gameLoop, 30);
+var gameLoopId;
+var start = function() {
+  gameLoopId = setInterval(gameLoop, 30);
+};
+var stop = function() {
+  clearInterval(gameLoopId);
+};
 
+start();
