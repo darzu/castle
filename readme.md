@@ -51,7 +51,7 @@ SSH stands for "Secure Shell". It is protocal for doing secure communication acc
  
 ###Setup Task 2: Your very own .profile
 
-Another menail task. Here we set up a special file called ".profile". This is used to configure bash (the command line tool for git). We need to configure bash with some helper "aliases". These aliases are shortcuts for common commands that we'll me using frequently.
+Another menial task. Here we set up a special file called ".profile". This is used to configure bash (the command line tool for git). We need to configure bash with some helper "aliases". These aliases are shortcuts for common commands that we'll me using frequently.
 
 0. Open git bash
 0. Run `cd ~`
