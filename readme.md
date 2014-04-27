@@ -1,18 +1,38 @@
 #Welcome to the Castle project!
 
+The goal of this project is to teach you guys how to program while we all have fun making a game!
+
 ##Setup
 
 ###Setup Task 0: Downloading the stuffs
+
+This step will get you the tools and accounts you need to start programming with Node.js and Javascript!
+
 - Get an account at https://github.com/ (email your username to Daryl)
 - Download "SublimeText 3" (text editor) http://www.sublimetext.com/3
 - Download "git" (version control) http://git-scm.com/
 - Download "node.js" (server) http://nodejs.org/
 - Make sure you have Google Chrome installed
 
-####Helpful links
-- http://try.github.io/
+####About Git
+Git is a "distributed version control system". Git allows us to keep a record of every change we will ever make to our code files. This is important so that we don't accidently loose anything or make other irreversible mistakes! (Note when you install git, it also installs a specail command line tool called "git bash". We will be using this for all our work with git!)
 
-###Setup Task 1: Setting up SSH
+####About GitHub
+Github.com is a site that will host (for free!) our central git system. It will be the central location from which we can each get copies of the code files and submit changes we make to code files. Github is were the master copy of each file will live, while locally on each of our own computers we will have our own copy of the files.
+
+####About SublimeText 3
+Sublime is a text editor. We will use it for all our javascript, html, and css code editing.
+
+####About Node.js
+Node is a platform that lets us create servers in javascript.
+
+####Helpful links
+- [Learning git](http://try.github.io/)
+
+###Setup Task 1: Setting up your SSH keys
+
+SSH stands for "Secure Shell". It is protocal for doing secure communication accross networks. SSH uses special 'keys' for verifying the identity of the people doing the commincation (aka authentication). We use SSH to establish a secure connection between our computer and "githuh.com". In order to do this, we need to create some new keys for you and then let github.com know about them. Github can do this automatically for us if we install there desktop application, but I think it is better if we do this on our own so we can use the command line to start.
+
 0. Open git bash
 0. Run `cd ~/.ssh`
 0. Run `ssh-keygen -t rsa -C "your_email@example.com"`
@@ -30,6 +50,9 @@
 - https://help.github.com/articles/generating-ssh-keys
  
 ###Setup Task 2: Your very own .profile
+
+Another menail task. Here we set up a special file called ".profile". This is used to configure bash (the command line tool for git). We need to configure bash with some helper "aliases". These aliases are shortcuts for common commands that we'll me using frequently.
+
 0. Open git bash
 0. Run `cd ~`
 0. Run `notepad .profile`
@@ -38,8 +61,10 @@
 alias ls="ls -a"
 alias ll="ls -l"
 alias subl="/cygdrive/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
-alias ssh-reset="eval `ssh-agent`; ssh-add ~/.ssh/github_bash_rsa"
-alias reload=" . ~/.profile"
+alias ssh-reload="eval `ssh-agent`; ssh-add ~/.ssh/github_bash_rsa"
+alias profile-reload=" . ~/.profile"
+
+ssh-reload;
 ```
 0. exit and reopen git bash
 
@@ -69,3 +94,6 @@ alias reload=" . ~/.profile"
 0. Run `git push`
 0. Reload the webpage with this readme. The line with your name in the list above should be crossed out!
 
+###Coding Task 2: Getting familiar
+0. Open 'server.js'
+0. Read through the comments.
