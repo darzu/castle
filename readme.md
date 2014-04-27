@@ -13,7 +13,7 @@
 - http://try.github.io/
 
 ###Setup Task 1: Setting up SSH
-0. Open "git bash"
+0. Open git bash
 0. run ```cd ~/.ssh```
 0. run ```ssh-keygen -t rsa -C "your_email@example.com"```
 0. Don't enter a passphrase (leave it blank)
@@ -30,10 +30,23 @@
 - https://help.github.com/articles/generating-ssh-keys
  
 ###Setup Task 2: Running your first server
-0. Open ```git bash```
+0. Open git bash
 0. run ```cd ~```
 0. run ```git clone git@github.com:Darzu/castle.git```
 0. run ```cd castle```
 0. run ```npm install```
 0. run ```node server```
 0. Open chrome and go to http://localhost:3000/
+
+###Setup Task 3: Your very own .profile
+0. Open git bash
+0. run ```cd ~```
+0. run ```notepad .profile```
+0. paste in the following contents and save:
+```
+alias ls="ls -a"
+alias ll="ls -l"
+alias subl="/cygdrive/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
+alias ssh-reset="eval `ssh-agent`; ssh-add ~/.ssh/github_bash_rsa"
+alias reload=" . ~/.profile"
+```
