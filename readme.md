@@ -57,8 +57,8 @@ alias reload=" . ~/.profile"
 ###Coding Task 1: Committing your first change!
 0. Open git bash
 0. Run `cd ~/castle`
-0. Run `subl readme.md`
-0. This should open this readme file in sublime! Scroll down until you see source text for this checklist:
+0. Run `subl .`
+0. This should open sublime! Find the "readme.md" file in the sidebar on the left. Then scroll down until you see source text for this checklist:
 - [x] Daryl has done his first commit!
 - [ ] Josh has done his first commit!
 - [ ] Kyle has done his first commit!
