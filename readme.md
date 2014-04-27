@@ -67,7 +67,7 @@ alias profile-reload=" . ~/.profile"
 
 ssh-reload;
 ```
-  5. Finally, exit and reopen git bash.
+0. Finally, exit and reopen git bash.
 
 ##Coding!
 
