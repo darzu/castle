@@ -2,14 +2,17 @@
 
 ##Setup
 
-###Setup Task 0
+###Setup Task 0: Downloading the stuffs
 - Get an account at https://github.com/
 - Download "SublimeText 3" (text editor) http://www.sublimetext.com/3
 - Download "git" (version control) http://git-scm.com/
 - Download "node.js" (server) http://nodejs.org/
 - Make sure you have Google Chrome installed
 
-###Setup Task 1
+####Helpful links
+- http://try.github.io/levels/1/challenges/4
+
+###Setup Task 1: Setting up SSH
 0. Open "git bash"
 0. run ```cd ~/.ssh```
 0. run ```ssh-keygen -t rsa -C "your_email@example.com"```
@@ -21,12 +24,12 @@
 0. Enter a name for your (probably your computer e.g. "Daryl Laptop")
 0. Paste your key into the key field
 0. Go back to your git bash window
-0. run ```ssh -T git@github.com```. You should see "Hi <username>! You've successfully authenticated".
+0. run ```ssh -T git@github.com```. You should see "Hi username! You've successfully authenticated".
 
-####Link
+####Helpful links
 - https://help.github.com/articles/generating-ssh-keys
  
-###Setup Task 2
+###Setup Task 2: Running your first server
 0. Open ```git bash```
 0. run ```cd ~```
 0. run ```git clone git@github.com:Darzu/castle.git```
