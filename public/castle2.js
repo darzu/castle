@@ -73,4 +73,4 @@ var stop = function() {
   clearInterval(gameLoopId);
 };
 
-start();
+//start();
