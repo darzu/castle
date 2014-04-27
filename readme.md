@@ -70,7 +70,12 @@ ssh-reload;
 
 ##Coding!
 
+Cool! Hopefully we've got the boring setup out of the way. Let's see if we can get fun stuff to happen!
+
 ###Coding Task 0: Running your first server
+
+Here we are going to try to "clone" the master git repository that github is hosting for us. This creats a local copy of that repsitory and all of its files so that we can use and edit the files offline! Cloning will also keep a link between this new local repository and the one living up at github so that we can synchronize between the two. We are also going to run the mini server that I've set up for us to start with.
+
 0. Open git bash
 0. Run `cd ~`
 0. Run `git clone git@github.com:Darzu/castle.git`
@@ -80,6 +85,9 @@ ssh-reload;
 0. Open chrome and go to http://localhost:3000/
 
 ###Coding Task 1: Committing your first change!
+
+Now that you've got your own local git repository and all of our project files, we're going to try to get you to do your first file edit and we'll have you synchronize your edit with the central authority at github (this makes it visible for everyone else on the project to see!).
+
 0. Open git bash
 0. Run `cd ~/castle`
 0. Run `subl .`
@@ -95,5 +103,8 @@ ssh-reload;
 0. Reload the webpage with this readme. The line with your name in the list above should be crossed out!
 
 ###Coding Task 2: Getting familiar
+
+Now that you've run the server and done a little bit with git , let's take a peak into the server and see what the code looks like!
+
 0. Open 'server.js'
 0. Read through the comments.
