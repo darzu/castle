@@ -67,5 +67,5 @@ alias reload=" . ~/.profile"
 0. Run `git add readme.md`
 0. Run `git commit -m "This is my first commit!"`
 0. Run `git push`
-0. Reload the webpage with this readme. You should see a check next to your name in the checklist just above!
+0. Reload the webpage with this readme. The line with your name in the list above should be crossed out!
 
