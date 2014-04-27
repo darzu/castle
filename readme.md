@@ -10,7 +10,7 @@
 - Make sure you have Google Chrome installed
 
 ####Helpful links
-- http://try.github.io/levels/1/challenges/4
+- http://try.github.io/
 
 ###Setup Task 1: Setting up SSH
 0. Open "git bash"
@@ -34,5 +34,6 @@
 0. run ```cd ~```
 0. run ```git clone git@github.com:Darzu/castle.git```
 0. run ```cd castle```
+0. run ```npm install```
 0. run ```node server```
 0. Open chrome and go to http://localhost:3000/
