@@ -3,6 +3,11 @@ var canvas = canvasElement.getContext('2d');
 
 console.log("Starting the castle game.");
 
+var erase = function() {
+  canvas.fillStyle = "rgb(255, 255, 255)";
+  canvas.fillRect(0,0, 1000, 100);
+};
+
 var drawCastle = function() {
 
   var castleChar = "Ħ";
@@ -45,6 +50,27 @@ var drawArrow = function(x) {
 
 };
 
-drawCastle();
-drawEnemy(900);
-drawArrow(100);
+var enemyX = 900;
+var arrowX = 100;
+
+var gameLoop = function() {
+  erase();
+
+  drawCastle();
+
+  enemyX -= 2;
+  drawEnemy(enemyX);
+
+  arrowX += 20;
+  drawArrow(arrowX);
+};
+
+var gameLoopId;
+var start = function() {
+  gameLoopId = setInterval(gameLoop, 30);
+};
+var stop = function() {
+  clearInterval(gameLoopId);
+};
+
+start();
