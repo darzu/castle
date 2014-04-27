@@ -35,6 +35,7 @@ SSH stands for "Secure Shell". It is protocal for doing secure communication acc
 
 0. Open git bash
 0. Run `cd ~/.ssh`
+0. Run "eval `ssh-agent`"
 0. Run `ssh-keygen -t rsa -C "your_email@example.com"`
 0. Don't enter a passphrase (leave it blank)
 0. Run `ssh-add ~/.ssh/id_rsa`
@@ -44,7 +45,6 @@ SSH stands for "Secure Shell". It is protocal for doing secure communication acc
 0. Enter a name for your (probably your computer e.g. "Daryl Laptop")
 0. Paste your key into the key field
 0. Go back to your git bash window
-0. Run ```eval \`ssh-agent\````
 0. Run `ssh -T git@github.com`. You should see "Hi username! You've successfully authenticated".
 
 For more detail instructions and help, see: [Setting up SSH with Github](https://help.github.com/articles/generating-ssh-keys)
