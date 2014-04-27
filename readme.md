@@ -61,7 +61,7 @@ Another menial task. Here we set up a special file called ".profile". This is us
 ```
 alias ls="ls -a"
 alias ll="ls -l"
-alias subl="/cygdrive/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
+alias subl="/C/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
 alias ssh-reload="eval `ssh-agent`; ssh-add ~/.ssh/id_rsa"
 alias profile-reload=" . ~/.profile"
 
@@ -103,7 +103,7 @@ Now that you've got your own local git repository and all of our project files, 
 0. Run `git push`
 0. Reload the webpage with this readme. The line with your name in the list above should be crossed out!
 
-###Coding Task 2: Getting familiar
+###Coding Task 3: Getting familiar
 
 Now that you've run the server and done a little bit with git , let's take a peak into the server and see what the code looks like!
 
