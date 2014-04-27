@@ -6,10 +6,14 @@ var logger = require('morgan');
 var server = express();
 
 server.use(logger('dev'));
-server.use(express.static(__dirname + '/'));
+server.use(express.static(__dirname + '/public'));
 
-server.get('/game', function(request, response){
-  response.send('Hello World!');
+var indexHtml = fs.readFileSync(__dirname + '/public/index.html');
+
+server.get('/', function(request, response){
+  response.writeHead(200, {'Content-Type': 'text/html'});
+  response.write(indexHtml);
+  response.end();
 });
 
 server.listen(3000/*port*/);
