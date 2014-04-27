@@ -62,7 +62,7 @@ Another menial task. Here we set up a special file called ".profile". This is us
 alias ls="ls -a"
 alias ll="ls -l"
 alias subl="/cygdrive/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
-alias ssh-reload="eval `ssh-agent`; ssh-add ~/.ssh/github_bash_rsa"
+alias ssh-reload="eval `ssh-agent`; ssh-add ~/.ssh/id_rsa"
 alias profile-reload=" . ~/.profile"
 
 ssh-reload;
