@@ -8,11 +8,11 @@ The goal of this project is to teach you guys how to program while we all have f
 
 This step will get you the tools and accounts you need to start programming with Node.js and Javascript!
 
-- Get an account at https://github.com/ (email your username to Daryl)
 - Download "SublimeText 3" (text editor) http://www.sublimetext.com/3
 - Download "git" (version control) http://git-scm.com/
 - Download "node.js" (server) http://nodejs.org/
 - Make sure you have Google Chrome installed
+- Get an account at https://github.com/. **Important!** Email me your usename so I can add you as a contributor to this project! You can't do any of the stuff in the "Coding" section below until then.
 
 ####About Git
 Git is a "distributed version control system". Git allows us to keep a record of every change we will ever make to our code files. This is important so that we don't accidently loose anything or make other irreversible mistakes! (Note when you install git, it also installs a specail command line tool called "git bash". We will be using this for all our work with git!)
