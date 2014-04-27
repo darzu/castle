@@ -8,10 +8,10 @@ The goal of this project is to teach you guys how to program while we all have f
 
 This step will get you the tools and accounts you need to start programming with Node.js and Javascript!
 
-- Download "SublimeText 3" (text editor) http://www.sublimetext.com/3
-- Download "git" (version control) http://git-scm.com/
-- Download "node.js" (server) http://nodejs.org/
-- Make sure you have Google Chrome installed
+- Download & install "SublimeText 3" (text editor) http://www.sublimetext.com/3
+- Download & install "Git" (version control) http://git-scm.com/
+- Download & install "Node.js" (server) http://nodejs.org/
+- Download & install "Google Chrome" (browser) www.google.com/chrome
 - Get an account at https://github.com/. **Important!** Email me your usename so I can add you as a contributor to this project! You can't do any of the stuff in the "Coding" section below until then.
 
 ####About Git
