@@ -46,8 +46,7 @@ SSH stands for "Secure Shell". It is protocal for doing secure communication acc
 0. Go back to your git bash window
 0. Run `ssh -T git@github.com`. You should see "Hi username! You've successfully authenticated".
 
-####Helpful links
-- https://help.github.com/articles/generating-ssh-keys
+For more detail instructions and help, see: [Setting up SSH with Github](https://help.github.com/articles/generating-ssh-keys)
  
 ###Setup Task 2: Your very own .profile
 
