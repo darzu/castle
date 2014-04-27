@@ -96,7 +96,7 @@ Now that you've got your own local git repository and all of our project files, 
 0. Run `subl .`
 0. This should open sublime! Find the "readme.md" file in the sidebar on the left. Scroll down until you see source text for this list:
   - ~~Daryl needs to do his first commit!~~
-  - Josh needs to do his first commit!
+  - ~~Josh needs to do his first commit!~~
   - Kyle needs to do his first commit!
 0. Add two tilda `~~` on each side of the line that has your name on it then save and close the file.
 0. Run `git status`
