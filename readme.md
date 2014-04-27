@@ -90,6 +90,8 @@ Here we are going to try to "clone" the master git repository that github is hos
 Now that you've got your own local git repository and all of our project files, we're going to try to get you to do your first file edit and we'll have you synchronize your edit with the central authority at github (this makes it visible for everyone else on the project to see!).
 
 0. Open git bash
+0. Run `git config --global user.name "your github username"`
+0. Run `git config --global user.email "you@example.com"`
 0. Run `cd ~/castle`
 0. Run `subl .`
 0. This should open sublime! Find the "readme.md" file in the sidebar on the left. Scroll down until you see source text for this list:
@@ -100,6 +102,7 @@ Now that you've got your own local git repository and all of our project files, 
 0. Run `git status`
 0. Run `git add readme.md`
 0. Run `git commit -m "This is my first commit!"`
+0. Run `git pull`
 0. Run `git push`
 0. Reload the webpage with this readme. The line with your name in the list above should be crossed out!
 
