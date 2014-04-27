@@ -1,4 +1,10 @@
+html {
+  font-size:4rem;  
+}
 body {
   font-family: consolas;
-  font-size:50;
+}
+#castle-canvas{
+  margin: 0.2rem;
+  box-shadow: 0 0 0.1rem 0 black;
 }
