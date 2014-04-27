@@ -38,8 +38,9 @@ SSH stands for "Secure Shell". It is protocal for doing secure communication acc
 0. Run "eval `ssh-agent`"
 0. Run `ssh-keygen -t rsa -C "your_email@example.com"`
 0. Don't enter a passphrase (leave it blank)
-0. Run `ssh-add ~/.ssh/id_rsa`
-0. Run `notepad ~/.ssh/id_rsa.pub`
+0. Run `ssh-add id_rsa`
+0. Run `notepad id_rsa.pub`
+0. Copy the entire contents of the file then close the file.
 0. Go to github.com > account settings > SSH Keys
 0. Click add SSH Key
 0. Enter a name for your (probably your computer e.g. "Daryl Laptop")
