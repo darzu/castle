@@ -35,11 +35,12 @@ SSH stands for "Secure Shell". It is protocal for doing secure communication acc
 
 0. Open git bash
 0. Run `cd ~/.ssh`
-0. Run `ssh-agent &`
+0. Run eval \`ssh-agent\`
 0. Run `ssh-keygen -t rsa -C "your_email@example.com"`
 0. Don't enter a passphrase (leave it blank)
-0. Run `ssh-add ~/.ssh/id_rsa`
-0. Run `pbcopy < ~/.ssh/id_rsa.pub`
+0. Run `ssh-add id_rsa`
+0. Run `notepad id_rsa.pub`
+0. Copy the entire contents of the file then close the file.
 0. Go to github.com > account settings > SSH Keys
 0. Click add SSH Key
 0. Enter a name for your (probably your computer e.g. "Daryl Laptop")
@@ -61,7 +62,7 @@ Another menial task. Here we set up a special file called ".profile". This is us
 alias ls="ls -a"
 alias ll="ls -l"
 alias subl="/cygdrive/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
-alias ssh-reload="eval `ssh-agent`; ssh-add ~/.ssh/github_bash_rsa"
+alias ssh-reload="eval `ssh-agent`; ssh-add ~/.ssh/id_rsa"
 alias profile-reload=" . ~/.profile"
 
 ssh-reload;
