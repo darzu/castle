@@ -59,9 +59,9 @@ alias reload=" . ~/.profile"
 0. Run `cd ~/castle`
 0. Run `subl readme.md`
 0. This should open this readme file in sublime! Scroll down until you see source text for this checklist:
-    - [x] Daryl has done his first commit!
-    - [ ] Josh has done his first commit!
-    - [ ] Kyle has done his first commit!
+- [x] Daryl has done his first commit!
+- [ ] Josh has done his first commit!
+- [ ] Kyle has done his first commit!
 0. Change the line that has your name on it to have a `[x]` instead of `[ ]` then save and close the file.
 0. Run `git status`
 0. Run `git add readme.md`
