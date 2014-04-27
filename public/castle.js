@@ -11,7 +11,7 @@ var clear = function() {
 var drawCastle = function() {
 
   var castleChar = "Ħ";
-  var castleColor = "rgb(200,0,0)";
+  var castleColor = "rgb(0,0,100)";
   var castleFont = "bold 100 sans-serif";
   var castleY = 100;
   var castleX = 10;
@@ -25,7 +25,7 @@ var drawCastle = function() {
 var drawEnemy = function(x) {
 
   var enemyChar = "♞";
-  var enemyColor = "rgb(200,0,0)";
+  var enemyColor = "rgb(150,0,0)";
   var enemyFont = "bold 50 sans-serif";
   var enemyY = 100;
 
@@ -39,7 +39,7 @@ var drawEnemy = function(x) {
 var drawArrow = function(x) {
 
   var arrowChar = "☀";
-  var arrowColor = "rgb(200,0,0)";
+  var arrowColor = "rgb(0,150,150)";
   var arrowFont = "bold 20 sans-serif";
   var arrowY = 85;
 
