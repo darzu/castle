@@ -50,8 +50,20 @@ var drawArrow = function(x) {
 
 };
 
-drawCastle();
+var enemyX = 900;
+var arrowX = 100;
 
-drawEnemy(800);
+var gameLoop = function() {
+  clear();
 
-drawArrow(500);
+  drawCastle();
+
+  enemyX -= 2;
+  drawEnemy(enemyX);
+
+  arrowX += 20;
+  drawArrow(arrowX);
+};
+
+setInterval(gameLoop, 30);
+
