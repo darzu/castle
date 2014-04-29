@@ -18,6 +18,10 @@ function loadCastle5() {
   $.getScript( "castle5.js" );
 };
 
+function loadCastle6() {
+  $.getScript( "castle6.js" );
+};
+
 function erase() {
   var canvasElement = document.getElementById("castle-canvas");
   var canvas = canvasElement.getContext('2d');  
