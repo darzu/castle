@@ -62,9 +62,9 @@ var drawDead = function(x){
   canvas.fillText(deadChar, x, deadY)
 }
 
-var enemyX = 900;
-var arrowX = 100;
-var arrowY = 85
+var enemyX;
+var arrowX;
+var arrowY;
 var alive = true;
 var check = true; 
 
