@@ -94,14 +94,15 @@ var gameLoop = function() {
     drawEnemy(enemy);
 
     //check if this enemy is hit by any arrow
-    arrows.forEach(function(arrow){
+    for (var i = arrows.length - 1; i >= 0; i -= 1){
+      var arrow = arrows[i];
       if(Math.abs(enemy.x - arrow.x) <= 10){//if the enemy and arrow are within 10 units it is a hit
         enemy.state = "dead";
         console.log("enemy down!");
 
-        
+        arrows.splice(i, 1);
       }
-    });
+    }
   });
 };
 
@@ -123,7 +124,10 @@ var stop = function() {
 var reset = function() {
   arrows = [];
   enemies = [];
-  stop();
+  spawnArrow(100);
+  spawnEnemy(900);
+  start();
 };
 
 reset();
+stop();
