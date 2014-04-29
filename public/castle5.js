@@ -53,10 +53,10 @@ var drawArrow = function(x,y) {
 
 };
 
-var enemyX;
-var arrowX;
-var arrowY;
-var enemyState;
+var enemyX
+    ,arrowX
+    ,arrowY
+    ,enemyState;
 
 var gameLoop = function() {
   
@@ -74,8 +74,7 @@ var gameLoop = function() {
   if(enemyX === arrowX){
     enemyState = "dead";
     console.log("there was a hit!");
-    //check = false;
-   }
+  }
 
 };
 
