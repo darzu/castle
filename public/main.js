@@ -10,8 +10,8 @@ function loadCastle2() {
   $.getScript( "castle2.js" );
 };
 
-function loadkp() {
-  $.getScript( "kp.js" );
+function loadCastle4() {
+  $.getScript( "castle4.js" );
 };
 
 function erase() {
