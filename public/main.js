@@ -14,6 +14,10 @@ function loadCastle4() {
   $.getScript( "castle4.js" );
 };
 
+function loadCastle5() {
+  $.getScript( "castle5.js" );
+};
+
 function erase() {
   var canvasElement = document.getElementById("castle-canvas");
   var canvas = canvasElement.getContext('2d');  
