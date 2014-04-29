@@ -49,7 +49,7 @@ var spawnEnemy = function(x) {
   enemies.push(newEnemy);
 };
 
-var drawArrow = function(x) {
+var drawArrow = function(arrow) {
 
   var arrowChar = "☀";
   var arrowColor = "rgb(0,150,150)";
@@ -59,7 +59,7 @@ var drawArrow = function(x) {
   canvas.fillStyle = arrowColor;
   canvas.font = arrowFont;
 
-  canvas.fillText(arrowChar, x, arrowY);  
+  canvas.fillText(arrowChar, arrow.x, arrowY);  
 
 };
 
@@ -88,7 +88,9 @@ var gameLoop = function() {
 
   //draw and update each enemy
   enemies.forEach(function(enemy){
-    enemy.x -= 10;
+    if (enemy.state == "alive") {
+      enemy.x -= 10;
+    }
     drawEnemy(enemy);
 
     //check if this enemy is hit by any arrow
@@ -96,6 +98,8 @@ var gameLoop = function() {
       if(Math.abs(enemy.x - arrow.x) <= 10){//if the enemy and arrow are within 10 units it is a hit
         enemy.state = "dead";
         console.log("enemy down!");
+
+        
       }
     });
   });
@@ -110,18 +114,15 @@ var start = function() {
 };
 
 var stop = function() {
-  if (!gameLoopId) {
+  if (gameLoopId) {
     clearInterval(gameLoopId);
+    gameLoopId = null;
   }
 };
 
 var reset = function() {
   arrows = [];
   enemies = [];
-  enemyX = 900;
-  arrowX = 100;
-  arrowY = 85;
-  enemyState = "alive";
   stop();
 };
 
