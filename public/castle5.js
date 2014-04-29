@@ -89,6 +89,7 @@ var start = function() {
 var stop = function() {
   if (!gameLoopId) {
     clearInterval(gameLoopId);
+    gameLoopId = null;
   }
 };
 
