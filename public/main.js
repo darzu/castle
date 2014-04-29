@@ -10,6 +10,10 @@ function loadCastle2() {
   $.getScript( "castle2.js" );
 };
 
+function loadkp() {
+  $.getScript( "kp.js" );
+};
+
 function erase() {
   var canvasElement = document.getElementById("castle-canvas");
   var canvas = canvasElement.getContext('2d');  
