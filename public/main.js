@@ -22,6 +22,10 @@ function loadCastle6() {
   $.getScript( "castle6.js" );
 };
 
+function loadCastle7() {
+  $.getScript( "castle7.js" );
+};
+
 function erase() {
   var canvasElement = document.getElementById("castle-canvas");
   var canvas = canvasElement.getContext('2d');  

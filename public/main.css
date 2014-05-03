@@ -1,13 +1,16 @@
 html {
-  font-size:4rem;  
+  font-size:1rem;  
 }
 body {
   font-family: consolas;
 }
 button {
-  font-size:0.5rem;
+  font-size:1rem;
 }
 #castle-canvas{
   margin: 0.2rem;
   box-shadow: 0 0 0.1rem 0 black;
+}
+.h1 {
+  font-size:5rem;
 }
