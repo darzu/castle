@@ -149,7 +149,8 @@ var stop = function() {
 var reset = function() {
   arrows = [];
   enemies = [];
-  $("#status").text("Fight off the hord!");
+  var statusText = $("#status");
+  statusText.text("Fight off the hord!");
   statusText.css("color", "black");
   statusText.css("font-size", "1rem")
 };
