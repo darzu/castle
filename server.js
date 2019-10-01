@@ -83,7 +83,7 @@ server.use(express.static(pathToPublicFolder));
 // to use a different, obscure port like port 3000. (It is
 // a hassle hosting a server on port 80 on windows or mac 
 // because it usually requires administrator privlages.)
-server.listen(3000/*port*/);
+server.listen(3001/*port*/);
 
 //This simply logs a message to our console.
-console.log('Server running at http://localhost:3000/');
+console.log('Server running at http://localhost:3001/');
